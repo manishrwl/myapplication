@@ -59,16 +59,18 @@
             app:drawableStartCompat="@drawable/list_black_18" />
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTransferData"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="FIVETH_V"
+            android:text="Transfer data from one activity to another"
             android:textColor="#781616"
             android:textStyle="bold"
             app:drawableStartCompat="@drawable/play_circle_outline_black_18" />
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvLifeCycle"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:background="#FFFFFF"

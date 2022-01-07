@@ -1,10 +1,14 @@
 package com.example.myapplication
 
 
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.TextView
+import com.example.myapplication.activityLifecycle.LifeCycleActivity
+import com.example.myapplication.datatransfer.TransferDataActivity
 
 class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,6 +38,16 @@ class MainActivity : Activity() {
             startActivity(Intent(this, FourthActivity::class.java))
         }
 
+        val tvTransferData = findViewById<View>(R.id.tvTransferData)
+        tvTransferData.setOnClickListener {
+            val intent = Intent(this, TransferDataActivity::class.java)
+            startActivity(intent)
+        }
+
+        findViewById<View>(R.id.tvLifeCycle)
+            .setOnClickListener {
+                startActivity(Intent(this, LifeCycleActivity::class.java))
+            }
     }
 }
 

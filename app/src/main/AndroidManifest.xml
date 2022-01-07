@@ -11,10 +11,10 @@
         android:theme="@style/Theme.MyApplication">
 
         <activity
-            android:theme="@style/Theme.MyApplication"
             android:name="MainActivity"
             android:exported="true"
-            android:label="Main">
+            android:label="Main"
+            android:theme="@style/Theme.MyApplication">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
                 <action android:name="android.intent.action.MAIN" />
@@ -34,12 +34,26 @@
         <activity
             android:name="ThirdActivity"
             android:exported="true"
-            android:label="Third"/>
+            android:label="Third" />
 
-        <activity android:name="FourthActivity"
-            android:label="fourth"
-            android:exported="true"/>
+        <activity
+            android:name="FourthActivity"
+            android:exported="true"
+            android:label="fourth" />
 
+
+        <activity
+            android:name=".datatransfer.TransferDataActivity"
+            android:exported="true"
+            android:label="TransferDataActivity" />
+        <activity
+            android:name=".datatransfer.ShowDataActivity"
+            android:exported="true"
+            android:label="ShowDataActivity" />
+
+        <activity
+            android:name=".activityLifecycle.LifeCycleActivity"
+            android:exported="true" />
 
 
     </application>

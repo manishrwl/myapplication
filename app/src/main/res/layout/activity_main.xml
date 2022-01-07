@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonOpenWifi"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="@string/button"
+            android:textColor="#811010" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textViewImage"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/working_with_images"
+            android:textAllCaps="true"
+            android:textColor="@color/color7A0909"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/ic_twotone_toys_48"
+            app:drawableTint="@color/color7A0909" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/Thirdactivity"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#FFFFFF"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="THIRD_III"
+            android:textColor="@color/color7A0909"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/ic_baseline_account_circle_48"
+            app:drawableTint="@color/color7A0909" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/fourthActivity"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="How to work with edit textview"
+            android:textColor="#650C0C"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/list_black_18" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="FIVETH_V"
+            android:textColor="#781616"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/play_circle_outline_black_18" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="SIXTH_ VI"
+            android:textColor="#5A0D0D"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/work_black_18" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="SEVENTH_VII"
+            android:textColor="#6E1212"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/workspaces_black_18" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="EIGHTH_VIII"
+            android:textColor="#630C0C"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/touch_app_black_18" />
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

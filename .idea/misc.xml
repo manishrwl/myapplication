@@ -3,19 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidProject/MyApplication/app/src/main/res/drawable/ic_baseline_accessibility_24.xml" value="0.11574074074074074" />
-        <entry key="..\:/AndroidProject/MyApplication/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.11574074074074074" />
-        <entry key="..\:/AndroidProject/MyApplication/app/src/main/res/drawable/ic_baseline_account_circle_48.xml" value="0.10185185185185185" />
-        <entry key="..\:/AndroidProject/MyApplication/app/src/main/res/drawable/ic_baseline_add_a_photo_24.xml" value="0.10185185185185185" />
-        <entry key="..\:/AndroidProject/MyApplication/app/src/main/res/drawable/ic_baseline_agriculture_48.xml" value="0.10185185185185185" />
-        <entry key="..\:/AndroidProject/MyApplication/app/src/main/res/drawable/ic_baseline_amp_stories_24.xml" value="0.10185185185185185" />
-        <entry key="..\:/AndroidProject/MyApplication/app/src/main/res/drawable/ic_baseline_beach_access_48.xml" value="0.10185185185185185" />
-        <entry key="..\:/AndroidProject/MyApplication/app/src/main/res/drawable/ic_baseline_electric_bike_48.xml" value="0.10185185185185185" />
-        <entry key="..\:/AndroidProject/MyApplication/app/src/main/res/drawable/ic_baseline_sports_kabaddi_24.xml" value="0.10185185185185185" />
-        <entry key="..\:/AndroidProject/MyApplication/app/src/main/res/drawable/ic_twotone_toys_24.xml" value="0.2169230769230769" />
-        <entry key="..\:/AndroidProject/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/AndroidProject/MyApplication/app/src/main/res/layout/activity_second.xml" value="0.25" />
-        <entry key="..\:/AndroidProject/MyApplication/app/src/main/res/layout/manish.xml" value="0.1925925925925926" />
         <entry key="..\:/Users/Manoj Singh Rawal/Downloads/project/MyApplication/MyApplication/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2203125" />
         <entry key="..\:/Users/Manoj Singh Rawal/Downloads/project/MyApplication/MyApplication/app/src/main/res/drawable/ic_baseline_account_circle_48.xml" value="0.2203125" />
         <entry key="..\:/Users/Manoj Singh Rawal/Downloads/project/MyApplication/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
@@ -26,7 +13,13 @@
         <entry key="..\:/Users/Manoj Singh Rawal/Downloads/project/MyApplication/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Manoj Singh Rawal/Downloads/project/MyApplication/MyApplication/app/src/main/res/layout/activity_third.xml" value="0.1" />
         <entry key="..\:/Users/Manoj Singh Rawal/Downloads/project/MyApplication/MyApplication/app/src/main/res/layout/activity_three.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/drawable/shape_circle_orange.xml" value="0.1824074074074074" />
+        <entry key="app/src/main/res/drawable/shape_rectangle_orange.xml" value="0.18611111111111112" />
+        <entry key="app/src/main/res/drawable/shape_rectangle_radius.xml" value="0.22" />
+        <entry key="app/src/main/res/drawable/shape_rectangle_white.xml" value="0.18611111111111112" />
+        <entry key="app/src/main/res/layout-v28/activity_login.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/acitivity_second.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.16" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_show_data.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_tansfer_data.xml" value="0.19322916666666667" />

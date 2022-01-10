@@ -41,6 +41,10 @@
             android:exported="true"
             android:label="fourth" />
 
+        <activity
+            android:name=".login.LoginActivity"
+            android:theme="@style/Theme.Login" />
+
 
         <activity
             android:name=".datatransfer.TransferDataActivity"

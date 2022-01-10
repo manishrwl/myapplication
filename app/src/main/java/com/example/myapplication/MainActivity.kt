@@ -9,6 +9,7 @@ import android.widget.Button
 import android.widget.TextView
 import com.example.myapplication.activityLifecycle.LifeCycleActivity
 import com.example.myapplication.datatransfer.TransferDataActivity
+import com.example.myapplication.login.LoginActivity
 
 class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -48,6 +49,11 @@ class MainActivity : Activity() {
             .setOnClickListener {
                 startActivity(Intent(this, LifeCycleActivity::class.java))
             }
+
+
+        findViewById<View>(R.id.tvLoginUi).setOnClickListener {
+            startActivity(Intent(this, LoginActivity::class.java))
+        }
     }
 }
 

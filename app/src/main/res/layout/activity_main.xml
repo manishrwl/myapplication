@@ -84,17 +84,18 @@
             android:gravity="center"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
-            android:text="SIXTH_ VI"
+            android:text="LifeCycle of Activity"
             android:textColor="#5A0D0D"
             android:textStyle="bold"
             app:drawableStartCompat="@drawable/ic_baseline_agriculture_48" />
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvLoginUi"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:text="SEVENTH_VII"
+            android:text="How to create Login UI"
             android:textColor="#6E1212"
             android:textStyle="bold"
             app:drawableStartCompat="@drawable/ic_baseline_beach_access_48"

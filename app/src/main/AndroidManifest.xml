@@ -59,6 +59,11 @@
             android:name=".activityLifecycle.LifeCycleActivity"
             android:exported="true" />
 
+        <activity
+            android:name=".data.SharedPreferencesActivity"
+            android:exported="true"
+            android:label="Shared Preferences" />
+
 
     </application>
 

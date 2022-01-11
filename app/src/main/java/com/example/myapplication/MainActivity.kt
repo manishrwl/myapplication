@@ -3,11 +3,13 @@ package com.example.myapplication
 
 import android.app.Activity
 import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import com.example.myapplication.activityLifecycle.LifeCycleActivity
+import com.example.myapplication.data.SharedPreferencesActivity
 import com.example.myapplication.datatransfer.TransferDataActivity
 import com.example.myapplication.login.LoginActivity
 
@@ -54,38 +56,9 @@ class MainActivity : Activity() {
         findViewById<View>(R.id.tvLoginUi).setOnClickListener {
             startActivity(Intent(this, LoginActivity::class.java))
         }
+
+        findViewById<View>(R.id.tvSP).setOnClickListener {
+            startActivity(Intent(this, SharedPreferencesActivity::class.java))
+        }
     }
 }
-
-/*
-*
-*   // Current Layout = R.layout.activity_main
-        // Layout set
-        setContentView(R.layout.activity_main)
-        // R = Resource file
-        val buttonOpenWifi = findViewById<Button>(R.id.buttonOpenWifi)
-
-        // Single Click
-        /*buttonOpenWifi.setOnClickListener {
-            // Start Second Activity
-            startActivity(Intent(this, SecondActivity::class.java))
-        }*/
-
-        buttonOpenWifi.setOnClickListener(object:View.OnClickListener{
-            override fun onClick(p0: View?) {
-                Toast.makeText(this@MainActivity,"Single Click Listener",Toast.LENGTH_LONG).show()
-            }
-        })
-
-
-        // Long Click
-        buttonOpenWifi.setOnLongClickListener {
-            Toast.makeText(this, "Long Pressed", Toast.LENGTH_SHORT).show()
-            return@setOnLongClickListener true
-        }
-* */
-
-
-// Task
-// Change App Name in Application Launcher
-

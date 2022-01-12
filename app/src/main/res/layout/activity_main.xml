@@ -52,35 +52,35 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:background="#FFFFFF"
+            app:drawableTint="@color/color7A0909"
             android:gravity="center"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
             android:text="How to work with edit textview"
             android:textColor="#650C0C"
             android:textStyle="bold"
-            app:drawableStartCompat="@drawable/ic_baseline_accessibility_24"
-            android:drawableTint="@color/color7A0909"
-            android:paddingStart="20dp"
-            android:paddingEnd="20dp"/>
+            app:drawableStartCompat="@drawable/ic_baseline_accessibility_24" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvTransferData"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:background="#FFFFFF"
+            app:drawableTint="@color/color7A0909"
             android:gravity="center"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
             android:text="Transfer data from one activity to another"
             android:textColor="#781616"
             android:textStyle="bold"
-            app:drawableStartCompat="@drawable/ic_baseline_add_a_photo_48"
-            android:paddingEnd="20dp"
-            android:paddingStart="20dp"
-            android:drawableTint="@color/color7A0909"/>
+            app:drawableStartCompat="@drawable/ic_baseline_add_a_photo_48" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvLifeCycle"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:background="#FFFFFF"
-            android:drawableTint="@color/color7A0909"
+            app:drawableTint="@color/color7A0909"
             android:gravity="center"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
@@ -95,13 +95,13 @@
             android:layout_height="100dp"
             android:background="#FFFFFF"
             android:gravity="center"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
             android:text="How to create Login UI"
             android:textColor="#6E1212"
             android:textStyle="bold"
             app:drawableStartCompat="@drawable/ic_baseline_beach_access_48"
-            app:drawableTint="@color/color7A0909"
-            android:paddingEnd="20dp"
-            android:paddingStart="20dp"/>
+            app:drawableTint="@color/color7A0909" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvSP"
@@ -109,13 +109,27 @@
             android:layout_height="100dp"
             android:background="#FFFFFF"
             android:gravity="center"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
             android:text="How to work with Shared Preferences"
             android:textColor="#630C0C"
             android:textStyle="bold"
             app:drawableStartCompat="@drawable/ic_baseline_sports_kabaddi_48"
-            app:drawableTint="@color/color7A0909"
+            app:drawableTint="@color/color7A0909" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvFileData"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
             android:paddingStart="20dp"
-            android:paddingEnd="20dp"/>
+            android:paddingEnd="20dp"
+            android:text="How to work with Files"
+            android:textColor="#630C0C"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/ic_baseline_sports_kabaddi_48"
+            app:drawableTint="@color/color7A0909" />
 
 
     </LinearLayout>

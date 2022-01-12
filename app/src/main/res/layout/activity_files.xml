@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <EditText
+            android:id="@+id/etInformation"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="@drawable/shape_rectangle_white"
+            android:ems="10"
+            android:gravity="start"
+            android:hint="Please enter your information"
+            android:inputType="textMultiLine"
+            android:maxLines="5"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/buttonSaveToFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Save info to file" />
+
+        <Button
+            android:id="@+id/buttonShowFileInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Get saved file info" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvFileInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="File Data will be here" />
+
+        <Button
+            android:id="@+id/buttonSaveMyDirFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Create Custom File in Custom Folder" />
+
+        <Button
+            android:id="@+id/buttonReadMyDirFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Read Custom File in Custom Folder" />
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

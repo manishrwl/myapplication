@@ -65,6 +65,12 @@
             android:label="Shared Preferences" />
 
 
+        <activity
+            android:name=".data.FileActivity"
+            android:exported="true"
+            android:label="File Activity" />
+
+
     </application>
 
 </manifest>

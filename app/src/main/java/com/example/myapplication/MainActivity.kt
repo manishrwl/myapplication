@@ -9,6 +9,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import com.example.myapplication.activityLifecycle.LifeCycleActivity
+import com.example.myapplication.data.FileActivity
 import com.example.myapplication.data.SharedPreferencesActivity
 import com.example.myapplication.datatransfer.TransferDataActivity
 import com.example.myapplication.login.LoginActivity
@@ -59,6 +60,10 @@ class MainActivity : Activity() {
 
         findViewById<View>(R.id.tvSP).setOnClickListener {
             startActivity(Intent(this, SharedPreferencesActivity::class.java))
+        }
+
+        findViewById<View>(R.id.tvFileData).setOnClickListener {
+            startActivity(Intent(this, FileActivity::class.java))
         }
     }
 }

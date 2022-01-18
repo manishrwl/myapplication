@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/buttonOpenDialer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Dialer" />
+
+    <Button
+        android:id="@+id/buttonCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call : 9643880467" />
+
+    <Button
+        android:id="@+id/buttonOpenURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open URL/Website" />
+
+    <Button
+        android:id="@+id/buttonOpenMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Mail" />
+
+    <Button
+        android:id="@+id/buttonActionView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Action View" />
+
+    <Button
+        android:id="@+id/buttonCustomAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Custom Action" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:text="9643880467" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:text="tjdam007@gmail.com" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:text="www.google.com" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:text="620 Eighth Avenue New York, NY 10018" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:text="@string/autolink_test" />
+
+
+</LinearLayout>

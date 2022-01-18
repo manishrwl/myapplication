@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myapplication">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,6 +21,7 @@
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
                 <action android:name="android.intent.action.MAIN" />
+                <data android:scheme="mailto" />
             </intent-filter>
         </activity>
 
@@ -69,6 +73,40 @@
             android:name=".data.FileActivity"
             android:exported="true"
             android:label="File Activity" />
+
+        <activity
+            android:name=".intents.IntentActivity"
+            android:exported="true"
+            android:label="Intent Activity" />
+
+        <activity
+            android:name=".intents.ImplicitMailActivity"
+            android:exported="true"
+            android:label="ImplicitMailActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.APP_BROWSER" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <data android:scheme="mailto" />
+                <data android:scheme="https" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".intents.CustomActionActivity"
+            android:exported="false"
+            android:label="CustomActionActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VIEW" />
+
+                <action android:name="thisismyaction" />
+                <data android:scheme="myapp" />
+            </intent-filter>
+        </activity>
 
 
     </application>

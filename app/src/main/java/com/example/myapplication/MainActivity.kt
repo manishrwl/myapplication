@@ -12,6 +12,7 @@ import com.example.myapplication.activityLifecycle.LifeCycleActivity
 import com.example.myapplication.data.FileActivity
 import com.example.myapplication.data.SharedPreferencesActivity
 import com.example.myapplication.datatransfer.TransferDataActivity
+import com.example.myapplication.intents.IntentActivity
 import com.example.myapplication.login.LoginActivity
 
 class MainActivity : Activity() {
@@ -64,6 +65,10 @@ class MainActivity : Activity() {
 
         findViewById<View>(R.id.tvFileData).setOnClickListener {
             startActivity(Intent(this, FileActivity::class.java))
+        }
+
+        findViewById<View>(R.id.buttonIntent).setOnClickListener {
+            startActivity(Intent(this, IntentActivity::class.java))
         }
     }
 }

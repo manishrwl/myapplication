@@ -9,4 +9,11 @@
     <string name="save_data">Save Data</string>
     <string name="show_password_box">Show Password Box</string>
     <string name="send_data">Send Data</string>
+    <string name="autolink_test">Name: New York Times \n
+           Email: public@nytimes.com \n
+           Phone: 212-556-7652 \n
+           Address: 620 Eighth Avenue New York, NY 10018  \n
+           Address: 620 Eighth avenue New York, NY 10018  \n
+           Website: http://www.nytimes.com
+    </string>
 </resources>

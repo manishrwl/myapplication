@@ -52,42 +52,42 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:background="#FFFFFF"
-            app:drawableTint="@color/color7A0909"
             android:gravity="center"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
             android:text="How to work with edit textview"
             android:textColor="#650C0C"
             android:textStyle="bold"
-            app:drawableStartCompat="@drawable/ic_baseline_accessibility_24" />
+            app:drawableStartCompat="@drawable/ic_baseline_accessibility_24"
+            app:drawableTint="@color/color7A0909" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvTransferData"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:background="#FFFFFF"
-            app:drawableTint="@color/color7A0909"
             android:gravity="center"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
             android:text="Transfer data from one activity to another"
             android:textColor="#781616"
             android:textStyle="bold"
-            app:drawableStartCompat="@drawable/ic_baseline_add_a_photo_48" />
+            app:drawableStartCompat="@drawable/ic_baseline_add_a_photo_48"
+            app:drawableTint="@color/color7A0909" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvLifeCycle"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:background="#FFFFFF"
-            app:drawableTint="@color/color7A0909"
             android:gravity="center"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
             android:text="LifeCycle of Activity"
             android:textColor="#5A0D0D"
             android:textStyle="bold"
-            app:drawableStartCompat="@drawable/ic_baseline_agriculture_48" />
+            app:drawableStartCompat="@drawable/ic_baseline_agriculture_48"
+            app:drawableTint="@color/color7A0909" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tvLoginUi"
@@ -131,6 +131,7 @@
             app:drawableStartCompat="@drawable/ic_baseline_sports_kabaddi_48"
             app:drawableTint="@color/color7A0909" />
 
+        <include layout="@layout/layout_intent_button" />
 
     </LinearLayout>
 

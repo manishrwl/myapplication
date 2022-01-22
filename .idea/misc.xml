@@ -13,6 +13,7 @@
         <entry key="..\:/Users/Manoj Singh Rawal/Downloads/project/MyApplication/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Manoj Singh Rawal/Downloads/project/MyApplication/MyApplication/app/src/main/res/layout/activity_third.xml" value="0.1" />
         <entry key="..\:/Users/Manoj Singh Rawal/Downloads/project/MyApplication/MyApplication/app/src/main/res/layout/activity_three.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/drawable/click_bg.xml" value="0.1358108108108108" />
         <entry key="app/src/main/res/drawable/shape_circle_orange.xml" value="0.1824074074074074" />
         <entry key="app/src/main/res/drawable/shape_rectangle_orange.xml" value="0.18611111111111112" />
         <entry key="app/src/main/res/drawable/shape_rectangle_radius.xml" value="0.22" />
@@ -25,6 +26,10 @@
         <entry key="app/src/main/res/layout/activity_shared_pref.xml" value="0.12533783783783783" />
         <entry key="app/src/main/res/layout/activity_show_data.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_tansfer_data.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/fragment_recyclerview_demo.xml" value="0.12533783783783783" />
+        <entry key="app/src/main/res/layout/item_character.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/item_character1.xml" value="0.12533783783783783" />
+        <entry key="app/src/main/res/layout/item_character2.xml" value="0.16" />
       </map>
     </option>
   </component>

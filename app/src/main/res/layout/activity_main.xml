@@ -161,6 +161,21 @@
             app:drawableStartCompat="@drawable/ic_baseline_sports_kabaddi_48"
             app:drawableTint="@color/color7A0909" />
 
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvImageSlideWithGesture"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="How to Use Gesture as Image Slider"
+            android:textColor="#630C0C"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/ic_baseline_sports_kabaddi_48"
+            app:drawableTint="@color/color7A0909" />
+
     </LinearLayout>
 
 </androidx.core.widget.NestedScrollView>

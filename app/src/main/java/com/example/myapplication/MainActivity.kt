@@ -11,6 +11,7 @@ import com.example.myapplication.activityLifecycle.LifeCycleActivity
 import com.example.myapplication.data.FileActivity
 import com.example.myapplication.data.SharedPreferencesActivity
 import com.example.myapplication.datatransfer.TransferDataActivity
+import com.example.myapplication.imageslider.ImageSliderWithAnimationListDialogFragment
 import com.example.myapplication.intents.IntentActivity
 import com.example.myapplication.login.LoginActivity
 import com.example.myapplication.recyclerview.RecyclerViewDialogFragment
@@ -74,6 +75,10 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<View>(R.id.tvRecyclerViewDemo).setOnClickListener {
             RecyclerViewDialogFragment().show(this@MainActivity.supportFragmentManager,TAG)
+        }
+
+        findViewById<View>(R.id.tvImageSlideWithAnimationList).setOnClickListener {
+            ImageSliderWithAnimationListDialogFragment().show(this@MainActivity.supportFragmentManager,TAG)
         }
     }
 }

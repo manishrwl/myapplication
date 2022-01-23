@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:variablePadding="true">
+    <item
+        android:drawable="@drawable/image_one"
+        android:duration="700" />
+    <item
+        android:drawable="@drawable/image_two"
+        android:duration="700" />
+    <item
+        android:drawable="@drawable/image_three"
+        android:duration="700" />
+    <item
+        android:drawable="@drawable/image_four"
+        android:duration="700" />
+    <item
+        android:drawable="@drawable/image_five"
+        android:duration="700" />
+</animation-list>

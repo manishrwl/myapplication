@@ -1,21 +1,22 @@
 package com.example.myapplication
 
 
-import android.app.Activity
 import android.content.Intent
-import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import com.example.myapplication.activityLifecycle.LifeCycleActivity
 import com.example.myapplication.data.FileActivity
 import com.example.myapplication.data.SharedPreferencesActivity
 import com.example.myapplication.datatransfer.TransferDataActivity
 import com.example.myapplication.intents.IntentActivity
 import com.example.myapplication.login.LoginActivity
+import com.example.myapplication.recyclerview.RecyclerViewDialogFragment
+import com.example.myapplication.recyclerview.TAG
 
-class MainActivity : Activity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -69,6 +70,10 @@ class MainActivity : Activity() {
 
         findViewById<View>(R.id.buttonIntent).setOnClickListener {
             startActivity(Intent(this, IntentActivity::class.java))
+        }
+
+        findViewById<View>(R.id.tvRecyclerViewDemo).setOnClickListener {
+            RecyclerViewDialogFragment().show(this@MainActivity.supportFragmentManager,TAG)
         }
     }
 }

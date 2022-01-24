@@ -108,6 +108,13 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".activityresult.ActivityA"
+            android:exported="false" />
+        <activity
+            android:name=".activityresult.ActivityB"
+            android:exported="false" />
+
 
     </application>
 

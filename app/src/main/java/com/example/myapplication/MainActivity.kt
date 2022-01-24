@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.myapplication.activityLifecycle.LifeCycleActivity
+import com.example.myapplication.activityresult.ActivityA
 import com.example.myapplication.data.FileActivity
 import com.example.myapplication.data.SharedPreferencesActivity
 import com.example.myapplication.datatransfer.TransferDataActivity
@@ -90,6 +91,10 @@ class MainActivity : AppCompatActivity() {
                 this@MainActivity.supportFragmentManager,
                 "ImageSliderWithGesturesDialogFragment"
             )
+        }
+
+        findViewById<View>(R.id.tvActivityResult).setOnClickListener {
+            startActivity(Intent(this, ActivityA::class.java))
         }
     }
 }

@@ -21,6 +21,7 @@
         <entry key="app/src/main/res/drawable/shape_rectangle_white.xml" value="0.18611111111111112" />
         <entry key="app/src/main/res/layout-v28/activity_login.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/acitivity_second.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/activity_camera.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/activity_fourth.xml" value="0.12533783783783783" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.16" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
@@ -29,11 +30,11 @@
         <entry key="app/src/main/res/layout/activity_tansfer_data.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/fragment_image_slider_with_animation_list.xml" value="0.2" />
         <entry key="app/src/main/res/layout/fragment_image_slider_with_gesture.xml" value="0.19322916666666667" />
-        <entry key="app/src/main/res/layout/fragment_image_slider_with_animation_list.xml" value="0.2" />
         <entry key="app/src/main/res/layout/fragment_recyclerview_demo.xml" value="0.12533783783783783" />
         <entry key="app/src/main/res/layout/item_character.xml" value="0.15" />
         <entry key="app/src/main/res/layout/item_character1.xml" value="0.12533783783783783" />
         <entry key="app/src/main/res/layout/item_character2.xml" value="0.16" />
+        <entry key="app/src/main/res/xml/file_paths.xml" value="0.19375" />
       </map>
     </option>
   </component>
